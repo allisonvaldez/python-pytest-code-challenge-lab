@@ -28,7 +28,7 @@ def longest_palindromic_substring(s):
         # Next check if its even
         len2 = expand_around_center(i, i +1)
         # Find the which word is longer
-        max_curr_len > max(len1, len2)
+        max_curr_len = max(len1, len2)
         # Update our tracker if we found a longer palindrome
         if max_curr_len > max_len:
             max_len = max_curr_len
